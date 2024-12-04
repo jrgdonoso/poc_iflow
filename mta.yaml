@@ -9,6 +9,8 @@ modules:
     parameters:
       memory: 512M
       disk-quota: 512M
+    requires:
+      - name: destination-service
 
 resources:
   - name: destination-service
