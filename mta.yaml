@@ -3,7 +3,7 @@ ID: my-integration-flow
 version: 1.0.0
 
 modules:
-  - name: my-iflow
+  - name: primeros_pasos
     type: com.sap.integration.flow
     path: primeros_pasos.zip
     parameters:
